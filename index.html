@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intro to UI Assignment</title>
+
+        <!-- Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+        <!-- FontAwesome Icons -->
+        <script src="https://kit.fontawesome.com/82b8f2fadc.js" crossorigin="anonymous"></script>
+
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <main>
+            <h1>Cupcake Orders</h1>
+            <img src="img/cupcake.jpg" alt="Cake" class="center">
+            <h2>Please list the quantity of cupcake flavours you would like!</h2>
+            <form>
+                <input type="text" id="entry" placeholder="Type here" /> <br><br>
+                <input type="submit" id="btn" value="Add To Order" />
+            </form>
+            <ul id="collected-items"></ul>
+            <p id="feedback"></p>  
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/"><i class="fab fa-3x fa-instagram-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/login/"><i class="fab fa-3x fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com"><i class="fab fa-3x fa-twitter-square"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
